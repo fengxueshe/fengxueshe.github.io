@@ -11,7 +11,7 @@ github_repo: "https://github.com/fengxueshe/fengxueshe.github.io.git" # you code
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "棱镜集团"
+sidebar-about-description: "棱镜视野"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
