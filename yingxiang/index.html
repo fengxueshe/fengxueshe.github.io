@@ -1,7 +1,22 @@
 ---
 layout: default
-header-img: "img/post-bg-rwd.jpg"
 ---
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>   </h1>
+                    <!--<hr class="small">-->
+                    <span class="subheading">   </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
 <video controls="true" style="position: absolute; z-index: 900; width: 90%; left: 60px; top: 188px;">
    <source src="https://lengjingjituan-1251535219.cos.ap-beijing.myqcloud.com/%E6%A3%B1%E9%95%9C%E5%AE%A3%E4%BC%A0%E7%89%87.mp4"></source>
  </video>
