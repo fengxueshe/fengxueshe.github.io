@@ -488,14 +488,14 @@ p {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.4);
-  width: 100%;
+  width: 100%;ml
   z-index: 1;
 }
 
 .home-hero-2 {
   background: url('../images/hero-bg/home-2.jpg');
   background-size: cover;
-  background-position: center center
+  background-repeat:no-repeat
 }
 
 /***********************************************************************************************/
