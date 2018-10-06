@@ -53,17 +53,17 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+disqus_username: '0xC00005'
 
 # Gitalk
-gitalk:
-  enable: false    #是否开启Gitalk评论
-  clientID: 2ad1594ca442b35b628a   #生成的clientID
-  clientSecret: 0142c89aa0530b74140822053e1e11f9f6280cba  #同上
-  repo: fengxueshe.github.io    #仓库名称
-  owner: fengxueshe    #github用户名
-  admin: fengxueshe
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+#gitalk:
+#  enable: false    #是否开启Gitalk评论
+#  clientID: 2ad1594ca442b35b628a   #生成的clientID
+#  clientSecret: 0142c89aa0530b74140822053e1e11f9f6280cba  #同上
+#  repo: fengxueshe.github.io    #仓库名称
+#  owner: fengxueshe    #github用户名
+#  admin: fengxueshe
+#  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
