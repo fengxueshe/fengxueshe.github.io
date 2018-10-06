@@ -489,13 +489,13 @@ p {
   left: 0;
   background: rgba(0, 0, 0, 0.4);
   width: 100%;
-  height: 100%;
   z-index: 1;
 }
 
 .home-hero-2 {
   background: url('../images/hero-bg/home-2.jpg');
   background-size: cover;
+  background-position: center center
 }
 
 /***********************************************************************************************/
