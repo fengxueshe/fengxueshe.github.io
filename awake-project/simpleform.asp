@@ -1,3 +1,3 @@
 <%
-Response.Write("<script>window.open("http://www.prismhorizon.top/awake-project/"&request.querystring("name"),"_blank")</script>")
+Response.Redirect("http://www.prismhorizon.top/awake-project/"&request.querystring("name"),true)
 %>
