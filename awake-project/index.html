@@ -54,18 +54,29 @@
 			<!-- Contact -->
 				<article id="contact">
 					<h2 class="major">机密影像资料库</h2>
-					<form method="get" action="read.html">
+					<form method="get" action="*" name="fm">
 						<div class="fields">
 							<div class="field half">
 								<label for="name">IDENTIFYING CODE</label>
-								<input type="text" name="name" id="name" />
+								<input type="text" name="name" id="time" />
 							</div>
 						</div>
 						<ul class="actions">
-							<li><input type="submit" value="确认" class="primary" /></li>
+							<li><input type="submit" value="确认" class="primary" onclick="subs();" /></li>
 							<li><input type="reset" value="重置" /></li>
 						</ul>
 					</form>
+					function subs() {
+					   var time = fm.time.value;
+					   if (time == ''){
+					      alert("请输入识别码");
+					      return false;
+					   } else {
+					      window.open('www.prismhorizon.top/awake-project' + time );
+					      return true;
+					      }
+					   }
+					   
 				</article>
 
 			<!-- Elements -->
