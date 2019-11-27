@@ -75,8 +75,15 @@
 					      alert("请输入识别码");
 					      return false;
 					   } else {
-					      window.open(time);
-					      return true;
+					      fetch(time).then(function(response) {
+                                                      if(response.status == 200){
+							      window.open(time);
+							      return true;
+						      }
+					      }).catch(function(e) {
+						      alert("识别码输入错误，请重新检查");
+					      });
+					   
 					      }
 					   }
 			        </script>
