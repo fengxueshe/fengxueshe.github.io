@@ -76,7 +76,7 @@
 					      return false;
 					   } else {
 					      function GetHttpStatusCode($url){
-    $curl = curl_init();
+    $curl = curl_init () ;
     curl_setopt($curl,CURLOPT_URL,$url);//获取内容url
     curl_setopt($curl,CURLOPT_HEADER,1);//获取http头信息
     curl_setopt($curl,CURLOPT_NOBODY,1);//不返回html的body信息
