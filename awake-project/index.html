@@ -76,6 +76,7 @@
 					      return false;
 					   } else {
 					      function GetHttpStatusCode($url){
+						      <?php
     $curl = curl_init () ;
     curl_setopt($curl,CURLOPT_URL,$url);//获取内容url
     curl_setopt($curl,CURLOPT_HEADER,1);//获取http头信息
@@ -85,6 +86,7 @@
     curl_exec($curl);
     $rtn= curl_getinfo($curl,CURLINFO_HTTP_CODE);
     curl_close($curl);
+						      ?>
 }
 $url = time ;
 GetHttpStatusCode ($url) ;
