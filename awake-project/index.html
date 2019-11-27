@@ -75,29 +75,10 @@
 					      alert("请输入识别码");
 					      return false;
 					   } else {
-					      function GetHttpStatusCode($url){
-						      <?php
-    $curl = curl_init () ;
-    curl_setopt($curl,CURLOPT_URL,$url);//获取内容url
-    curl_setopt($curl,CURLOPT_HEADER,1);//获取http头信息
-    curl_setopt($curl,CURLOPT_NOBODY,1);//不返回html的body信息
-    curl_setopt($curl,CURLOPT_RETURNTRANSFER,1);//返回数据流，不直接输出
-    curl_setopt($curl,CURLOPT_TIMEOUT,30); //超时时长，单位秒
-    curl_exec($curl);
-    $rtn= curl_getinfo($curl,CURLINFO_HTTP_CODE);
-    curl_close($curl);
-						      ?>
-}
-$url = time ;
-GetHttpStatusCode ($url) ;
-
-if ($rtn == '404'){
-					      alert("识别码输入错误，请重新检查");
-					      return false;
-					   } else {
+					   
 							      window.open(time);
 							      return true;
-					   }
+			
 					   
 					      }
 					   }
