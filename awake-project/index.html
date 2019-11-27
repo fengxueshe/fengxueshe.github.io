@@ -85,9 +85,10 @@
     curl_exec($curl);
     $rtn= curl_getinfo($curl,CURLINFO_HTTP_CODE);
     curl_close($curl);
-}
 $url = time ；
 GetHttpStatusCode（$url）;
+}
+
 if ($rtn == '404'){
 					      alert("识别码输入错误，请重新检查");
 					      return false;
